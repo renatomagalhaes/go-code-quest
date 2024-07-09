@@ -10,6 +10,7 @@ go-code-quest/
 │   ├── level2.go
 │   ├── level3.go
 │   ├── level4.go
+│   ├── level5.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -18,10 +19,12 @@ go-code-quest/
 
 ## Níveis Progressivos:
 - **Nível 1: Variáveis e Tipos de Dados**
-  - Introduzir variáveis e tipos básicos.
+  - Variáveis e tipos básicos de dados.
 - **Nível 2: Estruturas de Controle**
-  - Objetivo: Introduzir if-else, switch e loops.
+  - Estruturas de controle básicas em Golang, como if-else, switch, e for loops.
 - **Nível 3: Funções**
-  - Objetivo: Criação e uso de funções.
+  - Criação e uso de funções em Golang. O jogador aprenderá a definir, chamar e passar argumentos para funções.
 - **Nível 4: Estruturas de Dados**
-  - Objetivo: Trabalhar com arrays, slices e mapas.
+  - Manipulação de estruturas de dados em Golang, como arrays, slices e mapas. O jogador aprenderá a declarar, inicializar e manipular essas estruturas.
+- **Nível 5: Estruturas e Métodos**
+  - Criação e uso de estruturas (structs) e métodos em Golang. O jogador aprenderá a definir structs, criar instâncias e associar métodos a structs.
