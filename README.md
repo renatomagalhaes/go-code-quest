@@ -30,6 +30,7 @@ go-code-quest/
 │   ├── level22.go
 │   ├── level23.go
 │   ├── level24.go
+│   ├── level25.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -87,3 +88,5 @@ go-code-quest/
   - Integrações com APIs REST em Golang usando o pacote net/http. O jogador aprenderá a fazer requisições GET, POST, PUT e DELETE, além de processar respostas JSON.
 - **Nível 24: Uso de Contextos para Controle de Execução e Cancelamento**
   - Uso do pacote context em Golang para controlar o tempo de execução e cancelamento de goroutines. O jogador aprenderá a criar contextos com timeout e cancelamento, e a usá-los para controlar a execução de goroutines.
+- **Nível 25: Uso de WebSockets para Comunicação em Tempo Real**
+  - Usar WebSockets em Golang para permitir comunicação em tempo real entre um servidor e clientes. O jogador aprenderá a configurar um servidor WebSocket, enviar e receber mensagens em tempo real.
