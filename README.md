@@ -1,58 +1,80 @@
 # Jogo CLI: "Go Code Quest"
 
-````plaintext
-go-code-quest/
-├── cmd/
-│   └── goquest/
-│       └── main.go
-├── levels/
-│   ├── level1.go
-│   ├── level2.go
-│   ├── level3.go
-│   ├── level4.go
-│   ├── level5.go
-│   ├── level6.go
-│   ├── level7.go
-│   ├── level8.go
-│   ├── level9.go
-│   ├── level10.go
-│   ├── level11.go
-│   ├── level12.go
-│   ├── level13.go
-│   ├── level14.go
-│   ├── level15.go
-│   ├── level16.go
-│   ├── level17.go
-│   ├── level18.go
-│   ├── level19.go
-│   ├── level20.go
-│   ├── level21.go
-│   ├── level22.go
-│   ├── level23.go
-│   ├── level24.go
-│   ├── level25.go
-│   ├── level26.go
-│   ├── level27.go
-│   ├── level28.go
-│   ├── level29.go
-│   ├── level30.go
-│   ├── level31.go
-│   ├── level32.go
-│   ├── level33.go
-│   ├── level34.go
-│   ├── level35.go
-│   ├── level36.go
-│   ├── level37.go
-│   ├── level38.go
-│   ├── level39.go
-│   ├── level40.go
-│   ├── level41.go
-│   ├── level42.go
-├── pkg/
-│   ├── game/
-│   │   └── game.go
-└── README.md
-````
+O **Go Code Quest** é um jogo educativo baseado em linha de comando (CLI) projetado para ensinar habilidades básicas e avançadas de programação em Go. Através de diversos níveis, os jogadores são desafiados a resolver problemas e aprender conceitos fundamentais e avançados da linguagem Go. Cada nível aborda um tópico específico, com exemplos práticos e explicações, permitindo que os jogadores aprimorem suas habilidades de programação de forma interativa e divertida.
+
+## Como Jogar
+
+Para jogar o Go Code Quest, você precisa ter o Go instalado em seu sistema. Siga as instruções abaixo para iniciar o jogo:
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/go-code-quest.git
+    cd go-code-quest
+    ```
+
+2. Compile o jogo:
+    ```sh
+    go build -o goquest cmd/goquest/main.go
+    ```
+
+3. Execute o jogo:
+    ```sh
+    ./goquest start <level>
+    ```
+
+    Substitua `<level>` pelo nível que você deseja iniciar, por exemplo:
+    ```sh
+    ./goquest start level1
+    ```
+
+### Níveis Disponíveis
+
+Os seguintes níveis estão disponíveis:
+
+1. **level1:** Variáveis e Tipos de Dados
+2. **level2:** Estruturas de Controle
+3. **level3:** Funções
+4. **level4:** Estruturas e Métodos
+5. **level5:** Arrays e Slices
+6. **level6:** Mapas
+7. **level7:** Concurrency (Concorrência)
+8. **level8:** Channels
+9. **level9:** Testes
+10. **level10:** Pacotes
+11. **level11:** Interfaces
+12. **level12:** Errors (Erros)
+13. **level13:** Leitura e Escrita de Arquivos
+14. **level14:** JSON
+15. **level15:** HTTP
+16. **level16:** Context
+17. **level17:** Templates
+18. **level18:** Banco de Dados SQL
+19. **level19:** Banco de Dados NoSQL
+20. **level20:** Variáveis de Ambiente
+21. **level21:** CLI (Command Line Interface)
+22. **level22:** Ponteiros
+23. **level23:** Reflection
+24. **level24:** Go Modules
+25. **level25:** Goroutines e WaitGroups
+26. **level26:** WebSockets
+27. **level27:** Middleware
+28. **level28:** Logging
+29. **level29:** gRPC
+30. **level30:** Caching
+31. **level31:** OAuth
+32. **level32:** GraphQL
+33. **level33:** JWT (JSON Web Tokens)
+34. **level34:** Prometheus para Monitoramento
+35. **level35:** Kubernetes
+36. **level36:** Terraform
+37. **level37:** Plugins Dinâmicos
+38. **level38:** Integração com Serviços Externos
+39. **level39:** Channels e Select
+40. **level40:** Singleton
+41. **level41:** Tarefas Assíncronas e WaitGroups
+42. **level42:** Conexão Avançada com RabbitMQ
+
+
 
 ## Níveis Progressivos:
 - **Nível 1: Variáveis e Tipos de Dados**
@@ -141,3 +163,7 @@ go-code-quest/
   - Gerenciar tarefas assíncronas usando Go Routines. O jogador aprenderá a iniciar Go Routines, sincronizá-las com WaitGroups, e gerenciar a concorrência de forma eficiente.
 - **Nível 42: Conexão Avançada com RabbitMQ e Consumidores**
   - Implementar uma conexão avançada com RabbitMQ, incluindo a criação de consumidores, leitura de uma fila de alto movimento, e uso de ack e nack para gerenciamento de mensagens.
+
+## Conclusão
+
+O **Go Code Quest** oferece uma ampla gama de tópicos que cobrem desde conceitos básicos até avançados na linguagem Go. Ao completar os níveis, os jogadores terão uma compreensão sólida das melhores práticas de programação em Go, além de experiência prática com exemplos reais. Aproveite a jornada e bons estudos!
