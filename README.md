@@ -32,5 +32,5 @@ go-code-quest/
   - Criação e uso de estruturas (structs) e métodos em Golang. O jogador aprenderá a definir structs, criar instâncias e associar métodos a structs.
 - **Nível 6: Interfaces**
   - Criação e uso de interfaces em Golang. O jogador aprenderá a definir interfaces, implementar métodos e usar interfaces para generalizar comportamentos.
-- **Nível 6: Concurrency**
+- **Nível 7: Concurrency**
   - Criação e uso de goroutines e canais em Golang. O jogador aprenderá a definir goroutines para execução concorrente e a usar canais para comunicação entre goroutines.
