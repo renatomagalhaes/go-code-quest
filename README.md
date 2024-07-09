@@ -38,6 +38,7 @@ go-code-quest/
 │   ├── level30.go
 │   ├── level31.go
 │   ├── level32.go
+│   ├── level33.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -111,3 +112,5 @@ go-code-quest/
   - Manipular arquivos e diretórios no sistema de arquivos. O jogador aprenderá a ler e escrever arquivos, criar e remover diretórios, e usar os pacotes os e io/ioutil.
 - **Nível 32: Segurança em Aplicações Go**
   - Práticas de segurança para desenvolver aplicações seguras em Go. O jogador aprenderá sobre o gerenciamento de senhas e autenticação, proteção contra injeção de SQL e XSS, e uso de pacotes para criptografia.
+- **Nível 33: Trabalhando com Canais Avançados**
+  - Uso avançado de canais para sincronização e comunicação entre goroutines. O jogador aprenderá sobre padrões de comunicação com canais, buffers e timeouts com canais, e casos de uso avançados.
