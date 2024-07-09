@@ -16,6 +16,7 @@ go-code-quest/
 │   ├── level8.go
 │   ├── level9.go
 │   ├── level10.go
+│   ├── level11.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -43,3 +44,5 @@ go-code-quest/
   - Criação e execução de testes em Golang. O jogador aprenderá a escrever testes unitários usando o pacote testing.
 - **Nível 10: Integração com Banco de Dados**
   - Conexão e manipulação de um banco de dados em Golang. O jogador aprenderá a conectar-se a um banco de dados, executar consultas SQL e manipular dados.
+- **Nível 11: Integração com RabbitMQ**
+  - Integração com RabbitMQ em Golang. O jogador aprenderá a se conectar a um broker RabbitMQ, enviar mensagens a uma fila e consumir mensagens da fila, além de aprender a usar ack e nack para mensagens.
