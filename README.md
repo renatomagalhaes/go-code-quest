@@ -11,6 +11,7 @@ go-code-quest/
 │   ├── level3.go
 │   ├── level4.go
 │   ├── level5.go
+│   ├── level6.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -28,3 +29,5 @@ go-code-quest/
   - Manipulação de estruturas de dados em Golang, como arrays, slices e mapas. O jogador aprenderá a declarar, inicializar e manipular essas estruturas.
 - **Nível 5: Estruturas e Métodos**
   - Criação e uso de estruturas (structs) e métodos em Golang. O jogador aprenderá a definir structs, criar instâncias e associar métodos a structs.
+- **Nível 6: Interfaces**
+  - Criação e uso de interfaces em Golang. O jogador aprenderá a definir interfaces, implementar métodos e usar interfaces para generalizar comportamentos.
