@@ -25,6 +25,7 @@ go-code-quest/
 │   ├── level17.go
 │   ├── level18.go
 │   ├── level19.go
+│   ├── level20.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -70,3 +71,7 @@ go-code-quest/
   - Uso avançado de concorrência em Golang. O jogador aprenderá a usar sync.WaitGroup, canais (chan), e o pacote context para gerenciar goroutines e comunicação entre elas de forma eficaz.
 - **Nível 19: Integração com MongoDB**
   - Integração com o banco de dados NoSQL MongoDB em Golang. O jogador aprenderá a se conectar ao MongoDB, inserir, consultar e manipular documentos.
+- **Nível 20: Criação do Arquivo .env**
+  - Criar um arquivo .env no diretório raiz do seu projeto e adicionar variavéis de ambiente ex:
+    - RABBITMQ_URI=amqp://guest:guest@localhost:5672/
+    - QUEUE_NAME=test_queue
