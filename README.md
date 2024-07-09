@@ -17,6 +17,7 @@ go-code-quest/
 │   ├── level9.go
 │   ├── level10.go
 │   ├── level11.go
+│   ├── level12.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -46,3 +47,5 @@ go-code-quest/
   - Conexão e manipulação de um banco de dados em Golang. O jogador aprenderá a conectar-se a um banco de dados, executar consultas SQL e manipular dados.
 - **Nível 11: Integração com RabbitMQ**
   - Integração com RabbitMQ em Golang. O jogador aprenderá a se conectar a um broker RabbitMQ, enviar mensagens a uma fila e consumir mensagens da fila, além de aprender a usar ack e nack para mensagens.
+- **Nível 12: Manipulação de JSON**
+  - Manipulação de JSON em Golang. O jogador aprenderá a codificar e decodificar dados JSON.
