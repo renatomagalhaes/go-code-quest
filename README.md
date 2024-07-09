@@ -78,3 +78,5 @@ go-code-quest/
     - QUEUE_NAME=test_queue
 - **Nível 21: Uso de Templates para Geração de Código**
   - Usar templates em Go para gerar código dinamicamente. O jogador aprenderá a usar o pacote text/template para criar templates que podem ser preenchidos com dados e gerar arquivos de código Go.
+- **Nível 22: Uso Avançado de Ponteiros**
+  - Uso avançado de ponteiros em Golang. O jogador aprenderá a manipular ponteiros, passando o endereço de variáveis em vez de seus valores, e entenderá como isso pode ser eficiente e útil.
