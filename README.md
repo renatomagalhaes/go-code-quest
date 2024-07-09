@@ -45,6 +45,7 @@ go-code-quest/
 │   ├── level37.go
 │   ├── level38.go
 │   ├── level39.go
+│   ├── level40.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -132,3 +133,5 @@ go-code-quest/
   - Criar e utilizar plugins dinâmicos em Go. O jogador aprenderá a compilar código como plugin, carregar o plugin em tempo de execução e usar as funcionalidades do plugin. ````go build -buildmode=plugin -o plugin38.so plugin38.go````
 - **Nível 39: Utilizando Channels e Select para Comunicação Concorrente em Go**
   - Utilizar channels e a instrução select para comunicação concorrente em Go. O jogador aprenderá a criar channels, enviar e receber dados através deles, e usar a instrução select para múltiplas operações de comunicação.
+- **Nível 40: Padrão de Projeto Singleton em Go**
+  - Implementar o padrão de projeto Singleton em Go para garantir que uma classe tenha apenas uma instância e fornecer um ponto global de acesso a essa instância.
