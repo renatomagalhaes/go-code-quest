@@ -14,6 +14,7 @@ go-code-quest/
 │   ├── level6.go
 │   ├── level7.go
 │   ├── level8.go
+│   ├── level9.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -37,3 +38,5 @@ go-code-quest/
   - Criação e uso de goroutines e canais em Golang. O jogador aprenderá a definir goroutines para execução concorrente e a usar canais para comunicação entre goroutines.
 - **Nível 8: Manipulação de Arquivos**
   - Leitura e escrita de arquivos em Golang. O jogador aprenderá a abrir, ler e escrever arquivos, bem como lidar com erros durante a manipulação de arquivos.
+- **Nível 9: Testes**
+  - Criação e execução de testes em Golang. O jogador aprenderá a escrever testes unitários usando o pacote testing.
