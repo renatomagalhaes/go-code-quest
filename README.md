@@ -39,6 +39,7 @@ go-code-quest/
 │   ├── level31.go
 │   ├── level32.go
 │   ├── level33.go
+│   ├── level34.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -114,3 +115,5 @@ go-code-quest/
   - Práticas de segurança para desenvolver aplicações seguras em Go. O jogador aprenderá sobre o gerenciamento de senhas e autenticação, proteção contra injeção de SQL e XSS, e uso de pacotes para criptografia.
 - **Nível 33: Trabalhando com Canais Avançados**
   - Uso avançado de canais para sincronização e comunicação entre goroutines. O jogador aprenderá sobre padrões de comunicação com canais, buffers e timeouts com canais, e casos de uso avançados.
+- **Nível 34: Monitoramento e Logging em Go**
+  - Implementar monitoramento e logging eficaz em aplicações Go. O jogador aprenderá sobre a integração com ferramentas de monitoramento, a coleta e o armazenamento de logs, e o uso de pacotes de logging.
