@@ -27,6 +27,8 @@ go-code-quest/
 │   ├── level19.go
 │   ├── level20.go
 │   ├── level21.go
+│   ├── level22.go
+│   ├── level23.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -80,3 +82,5 @@ go-code-quest/
   - Usar templates em Go para gerar código dinamicamente. O jogador aprenderá a usar o pacote text/template para criar templates que podem ser preenchidos com dados e gerar arquivos de código Go.
 - **Nível 22: Uso Avançado de Ponteiros**
   - Uso avançado de ponteiros em Golang. O jogador aprenderá a manipular ponteiros, passando o endereço de variáveis em vez de seus valores, e entenderá como isso pode ser eficiente e útil.
+- **Nível 23: Integração com APIs REST usando HTTP**
+  - Integrações com APIs REST em Golang usando o pacote net/http. O jogador aprenderá a fazer requisições GET, POST, PUT e DELETE, além de processar respostas JSON.
