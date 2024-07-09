@@ -35,6 +35,7 @@ go-code-quest/
 │   ├── level27.go
 │   ├── level28.go
 │   ├── level29.go
+│   ├── level30.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -102,3 +103,5 @@ go-code-quest/
   - Criar e usar middlewares para gerenciar requisições HTTP. O jogador aprenderá a criar middlewares básicos, usar middlewares para autenticação, logging e tratamento de erros, e integrar middlewares em um servidor HTTP.
 - **Nível 29: Integração com gRPC**
   - Usar gRPC para comunicação eficiente entre serviços. O jogador aprenderá a criar um servidor e cliente gRPC, definir serviços usando Protocol Buffers, e testar chamadas de métodos gRPC.
+- **Nível 30: Aplicação de Clean Architecture em Go**
+  - Aplicar princípios de Clean Architecture em projetos Go. O jogador aprenderá a estruturar projetos seguindo a Clean Architecture, separando as camadas de domínio, aplicação e infraestrutura, e implementando casos de uso e interfaces.
