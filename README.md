@@ -26,6 +26,7 @@ go-code-quest/
 │   ├── level18.go
 │   ├── level19.go
 │   ├── level20.go
+│   ├── level21.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -75,3 +76,5 @@ go-code-quest/
   - Criar um arquivo .env no diretório raiz do seu projeto e adicionar variavéis de ambiente ex:
     - RABBITMQ_URI=amqp://guest:guest@localhost:5672/
     - QUEUE_NAME=test_queue
+- **Nível 21: Uso de Templates para Geração de Código**
+  - Usar templates em Go para gerar código dinamicamente. O jogador aprenderá a usar o pacote text/template para criar templates que podem ser preenchidos com dados e gerar arquivos de código Go.
