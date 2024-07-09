@@ -4,10 +4,10 @@ import (
     "bufio"
     "fmt"
     "go-code-quest/pkg/game"
-    "math/rand"
     "os"
     "strconv"
     "strings"
+    "math/rand"
     "time"
 )
 
@@ -100,22 +100,27 @@ func (l Level2) Start() {
     fmt.Println(")")
     fmt.Println()
     fmt.Println("func main() {")
-    fmt.Println("    input := \"1 2 3 4 5\" // Exemplo de entrada")
+    fmt.Println("    // Exemplo de entrada como string")
+    fmt.Println("    input := \"1 2 3 4 5\"")
+    fmt.Println("    // Dividir a entrada em substrings usando espaço como delimitador")
     fmt.Println("    numStrings := strings.Split(input, \" \")")
+    fmt.Println("    // Criar um slice de inteiros com o mesmo tamanho das substrings")
     fmt.Println("    numbers := make([]int, len(numStrings))")
     fmt.Println()
+    fmt.Println("    // Converter cada substring para inteiro e armazenar no slice")
     fmt.Println("    for i, ns := range numStrings {")
     fmt.Println("        n, err := strconv.Atoi(ns)")
     fmt.Println("        if err != nil {")
-    fmt.Println("            n = 0")
+    fmt.Println("            n = 0 // Usar 0 se a conversão falhar")
     fmt.Println("        }")
     fmt.Println("        numbers[i] = n")
     fmt.Println("    }")
     fmt.Println()
+    fmt.Println("    // Inicializar soma e contadores de números pares e ímpares")
     fmt.Println("    sum := 0")
     fmt.Println("    evenCount := 0")
     fmt.Println("    oddCount := 0")
-    fmt.Println()
+    fmt.Println("    // Calcular a soma e contar números pares e ímpares")
     fmt.Println("    for _, num := range numbers {")
     fmt.Println("        sum += num")
     fmt.Println("        if num%2 == 0 {")
@@ -125,10 +130,12 @@ func (l Level2) Start() {
     fmt.Println("        }")
     fmt.Println("    }")
     fmt.Println()
+    fmt.Println("    // Exibir resultados")
     fmt.Println("    fmt.Printf(\"Soma dos números: %d\\n\", sum)")
     fmt.Println("    fmt.Printf(\"Quantidade de números pares: %d\\n\", evenCount)")
     fmt.Println("    fmt.Printf(\"Quantidade de números ímpares: %d\\n\", oddCount)")
     fmt.Println()
+    fmt.Println("    // Exemplo de uso de switch para verificar a paridade de um número escolhido")
     fmt.Println("    choice := 3 // Exemplo de escolha")
     fmt.Println("    switch choice {")
     fmt.Println("    case 0:")

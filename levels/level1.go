@@ -4,9 +4,9 @@ import (
     "bufio"
     "fmt"
     "go-code-quest/pkg/game"
-    "math/rand"
-    "os"
     "strconv"
+    "os"
+    "math/rand"
     "time"
 )
 
@@ -25,7 +25,7 @@ func (l Level1) Start() {
     cyan := "\033[36m"
     reset := "\033[0m"
 
-    separator := "=============================================="
+    separator := "==============================================="
 
     fmt.Println(separator)
     fmt.Println(string(cyan) + "Level 1: Variáveis e Tipos de Dados" + string(reset))
@@ -75,9 +75,21 @@ func (l Level1) Start() {
     fmt.Println(string(cyan) + "Exemplo de solução em Go" + string(reset))
     fmt.Println(separator)
     fmt.Println("```go")
-    fmt.Printf("var i int = %d\n", i)
-    fmt.Printf("var s string = \"%s\"\n", s)
-    fmt.Printf("var b bool = %t\n", b)
+    fmt.Println("package main")
+    fmt.Println()
+    fmt.Println("import \"fmt\"")
+    fmt.Println()
+    fmt.Println("func main() {")
+    fmt.Println("    // Declarar variáveis de diferentes tipos")
+    fmt.Println("    var i int = 10")
+    fmt.Println("    var s string = \"Hello, Go!\"")
+    fmt.Println("    var b bool = true")
+    fmt.Println()
+    fmt.Println("    // Imprimir valores das variáveis")
+    fmt.Println("    fmt.Printf(\"Inteiro: %d\\n\", i)")
+    fmt.Println("    fmt.Printf(\"String: %s\\n\", s)")
+    fmt.Println("    fmt.Printf(\"Booleano: %t\\n\", b)")
+    fmt.Println("}")
     fmt.Println("```")
 
     fmt.Println()
