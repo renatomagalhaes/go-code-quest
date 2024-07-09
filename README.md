@@ -18,6 +18,7 @@ go-code-quest/
 │   ├── level10.go
 │   ├── level11.go
 │   ├── level12.go
+│   ├── level13.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -49,3 +50,5 @@ go-code-quest/
   - Integração com RabbitMQ em Golang. O jogador aprenderá a se conectar a um broker RabbitMQ, enviar mensagens a uma fila e consumir mensagens da fila, além de aprender a usar ack e nack para mensagens.
 - **Nível 12: Manipulação de JSON**
   - Manipulação de JSON em Golang. O jogador aprenderá a codificar e decodificar dados JSON.
+- **Nível 13: Concorrência (wait groups)**
+  - Concorrência avançada em Golang. O jogador aprenderá a usar goroutines, canais e grupos de espera (wait groups) para sincronização de tarefas concorrentes.
