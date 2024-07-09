@@ -71,6 +71,8 @@ var startCmd = &cobra.Command{
             levels.StartLevel24()
         case "level25":
             levels.StartLevel25()
+        case "level26":
+            levels.StartLevel26()
         default:
             fmt.Println("Level not found")
         }

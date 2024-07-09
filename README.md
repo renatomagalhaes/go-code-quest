@@ -90,3 +90,5 @@ go-code-quest/
   - Uso do pacote context em Golang para controlar o tempo de execução e cancelamento de goroutines. O jogador aprenderá a criar contextos com timeout e cancelamento, e a usá-los para controlar a execução de goroutines.
 - **Nível 25: Uso de WebSockets para Comunicação em Tempo Real**
   - Usar WebSockets em Golang para permitir comunicação em tempo real entre um servidor e clientes. O jogador aprenderá a configurar um servidor WebSocket, enviar e receber mensagens em tempo real.
+- **Nível 26: Testes Unitários e de Integração com Go**
+  - Escrever testes unitários e de integração em Golang usando o pacote testing. O jogador aprenderá a escrever testes para funções individuais e a integrar testes que verificam o comportamento de múltiplos componentes.
