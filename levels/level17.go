@@ -9,8 +9,8 @@ import (
     "log"
     "os"
     "strings"
-		"math/rand"
-		"time"
+	"math/rand"
+	"time"
 
     _ "github.com/go-sql-driver/mysql"
 )

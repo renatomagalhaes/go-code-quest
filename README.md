@@ -24,6 +24,7 @@ go-code-quest/
 │   ├── level16.go
 │   ├── level17.go
 │   ├── level18.go
+│   ├── level19.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -67,3 +68,5 @@ go-code-quest/
   - Uso de templates SQL em Golang. O jogador aprenderá a usar arquivos de template para criar consultas SQL dinâmicas e como utilizar esses templates no código Go, incluindo exemplos de consultas simples e consultas mais complexas com INNER JOIN.
 - **Nível 18: Concorrência Avançada**
   - Uso avançado de concorrência em Golang. O jogador aprenderá a usar sync.WaitGroup, canais (chan), e o pacote context para gerenciar goroutines e comunicação entre elas de forma eficaz.
+- **Nível 19: Integração com MongoDB**
+  - Integração com o banco de dados NoSQL MongoDB em Golang. O jogador aprenderá a se conectar ao MongoDB, inserir, consultar e manipular documentos.
