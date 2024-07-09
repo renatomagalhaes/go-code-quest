@@ -37,6 +37,7 @@ go-code-quest/
 │   ├── level29.go
 │   ├── level30.go
 │   ├── level31.go
+│   ├── level32.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -108,3 +109,5 @@ go-code-quest/
   - Aplicar princípios de Clean Architecture em projetos Go. O jogador aprenderá a estruturar projetos seguindo a Clean Architecture, separando as camadas de domínio, aplicação e infraestrutura, e implementando casos de uso e interfaces.
 - **Nível 31: Manipulação de Arquivos e Diretórios**
   - Manipular arquivos e diretórios no sistema de arquivos. O jogador aprenderá a ler e escrever arquivos, criar e remover diretórios, e usar os pacotes os e io/ioutil.
+- **Nível 32: Segurança em Aplicações Go**
+  - Práticas de segurança para desenvolver aplicações seguras em Go. O jogador aprenderá sobre o gerenciamento de senhas e autenticação, proteção contra injeção de SQL e XSS, e uso de pacotes para criptografia.
