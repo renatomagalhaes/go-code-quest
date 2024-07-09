@@ -34,6 +34,7 @@ go-code-quest/
 │   ├── level26.go
 │   ├── level27.go
 │   ├── level28.go
+│   ├── level29.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -99,3 +100,5 @@ go-code-quest/
   - Usar ferramentas de profiling para identificar gargalos de desempenho e otimizar o código. O jogador aprenderá a usar o pacote pprof para fazer profiling de CPU e memória, analisar os resultados e aplicar técnicas de otimização.
 - **Nível 28: Implementação de Middlewares em Go**
   - Criar e usar middlewares para gerenciar requisições HTTP. O jogador aprenderá a criar middlewares básicos, usar middlewares para autenticação, logging e tratamento de erros, e integrar middlewares em um servidor HTTP.
+- **Nível 29: Integração com gRPC**
+  - Usar gRPC para comunicação eficiente entre serviços. O jogador aprenderá a criar um servidor e cliente gRPC, definir serviços usando Protocol Buffers, e testar chamadas de métodos gRPC.
