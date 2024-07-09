@@ -123,3 +123,5 @@ go-code-quest/
   - Usar o pacote Viper para gerenciar configurações em aplicações Go. O jogador aprenderá a carregar configurações de arquivos, variáveis de ambiente e outros fontes, e a acessar esses valores no código.
 - **Nível 36: Manipulação de JSON em Go**
   - Trabalhar com JSON em Go. O jogador aprenderá a serializar e desserializar dados JSON, lidar com estruturas aninhadas e usar tags de struct para customizar a conversão.
+- **Nível 37: Utilizando WebSockets em Go**
+  - Implementar WebSockets em aplicações Go, permitindo tanto o envio quanto o recebimento de mensagens. O jogador aprenderá a configurar um servidor WebSocket, lidar com conexões e mensagens, e usar a biblioteca gorilla/websocket.
