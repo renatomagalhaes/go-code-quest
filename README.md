@@ -23,6 +23,7 @@ go-code-quest/
 │   ├── level15.go
 │   ├── level16.go
 │   ├── level17.go
+│   ├── level18.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -64,3 +65,5 @@ go-code-quest/
   - Uso de ponteiros em Golang. O jogador aprenderá a declarar ponteiros, usar operadores de desreferenciação e trabalhar com funções que aceitam ponteiros como argumentos.
 - **Nível 17: Uso de Templates SQL**
   - Uso de templates SQL em Golang. O jogador aprenderá a usar arquivos de template para criar consultas SQL dinâmicas e como utilizar esses templates no código Go, incluindo exemplos de consultas simples e consultas mais complexas com INNER JOIN.
+- **Nível 18: Concorrência Avançada**
+  - Uso avançado de concorrência em Golang. O jogador aprenderá a usar sync.WaitGroup, canais (chan), e o pacote context para gerenciar goroutines e comunicação entre elas de forma eficaz.
