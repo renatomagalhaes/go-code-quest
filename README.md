@@ -47,6 +47,7 @@ go-code-quest/
 │   ├── level39.go
 │   ├── level40.go
 │   ├── level41.go
+│   ├── level42.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -138,3 +139,5 @@ go-code-quest/
   - Implementar o padrão de projeto Singleton em Go para garantir que uma classe tenha apenas uma instância e fornecer um ponto global de acesso a essa instância.
 - **Nível 41: Trabalhando com Tarefas Assíncronas e Go Routines**
   - Gerenciar tarefas assíncronas usando Go Routines. O jogador aprenderá a iniciar Go Routines, sincronizá-las com WaitGroups, e gerenciar a concorrência de forma eficiente.
+- **Nível 42: Conexão Avançada com RabbitMQ e Consumidores**
+  - Implementar uma conexão avançada com RabbitMQ, incluindo a criação de consumidores, leitura de uma fila de alto movimento, e uso de ack e nack para gerenciamento de mensagens.
