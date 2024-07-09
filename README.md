@@ -36,6 +36,7 @@ go-code-quest/
 │   ├── level28.go
 │   ├── level29.go
 │   ├── level30.go
+│   ├── level31.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -105,3 +106,5 @@ go-code-quest/
   - Usar gRPC para comunicação eficiente entre serviços. O jogador aprenderá a criar um servidor e cliente gRPC, definir serviços usando Protocol Buffers, e testar chamadas de métodos gRPC.
 - **Nível 30: Aplicação de Clean Architecture em Go**
   - Aplicar princípios de Clean Architecture em projetos Go. O jogador aprenderá a estruturar projetos seguindo a Clean Architecture, separando as camadas de domínio, aplicação e infraestrutura, e implementando casos de uso e interfaces.
+- **Nível 31: Manipulação de Arquivos e Diretórios**
+  - Manipular arquivos e diretórios no sistema de arquivos. O jogador aprenderá a ler e escrever arquivos, criar e remover diretórios, e usar os pacotes os e io/ioutil.

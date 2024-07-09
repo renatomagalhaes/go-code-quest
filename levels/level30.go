@@ -9,8 +9,8 @@ import (
     "go-code-quest/internal/interface/http/router"
     "go-code-quest/internal/usecase"
     "go-code-quest/pkg/game"
-		"math/rand"
-		"time"
+	"math/rand"
+	"time"
     "log"
     "net/http"
 )
