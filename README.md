@@ -29,6 +29,7 @@ go-code-quest/
 │   ├── level21.go
 │   ├── level22.go
 │   ├── level23.go
+│   ├── level24.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -84,3 +85,5 @@ go-code-quest/
   - Uso avançado de ponteiros em Golang. O jogador aprenderá a manipular ponteiros, passando o endereço de variáveis em vez de seus valores, e entenderá como isso pode ser eficiente e útil.
 - **Nível 23: Integração com APIs REST usando HTTP**
   - Integrações com APIs REST em Golang usando o pacote net/http. O jogador aprenderá a fazer requisições GET, POST, PUT e DELETE, além de processar respostas JSON.
+- **Nível 24: Uso de Contextos para Controle de Execução e Cancelamento**
+  - Uso do pacote context em Golang para controlar o tempo de execução e cancelamento de goroutines. O jogador aprenderá a criar contextos com timeout e cancelamento, e a usá-los para controlar a execução de goroutines.
