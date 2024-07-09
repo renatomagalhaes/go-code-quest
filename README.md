@@ -8,7 +8,7 @@ Para jogar o Go Code Quest, você precisa ter o Go instalado em seu sistema. Sig
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/go-code-quest.git
+    git clone https://github.com/renatomagalhaes/go-code-quest.git
     cd go-code-quest
     ```
 
