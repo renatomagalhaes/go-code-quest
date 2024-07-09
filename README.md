@@ -8,6 +8,7 @@ go-code-quest/
 ├── levels/
 │   ├── level1.go
 │   ├── level2.go
+│   ├── level3.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -19,3 +20,5 @@ go-code-quest/
   - Introduzir variáveis e tipos básicos.
 - **Nível 2: Estruturas de Controle**
   - Objetivo: Introduzir if-else, switch e loops.
+- **Nível 3: Funções**
+  - Objetivo: Criação e uso de funções.
