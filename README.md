@@ -9,6 +9,7 @@ go-code-quest/
 │   ├── level1.go
 │   ├── level2.go
 │   ├── level3.go
+│   ├── level4.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -22,3 +23,5 @@ go-code-quest/
   - Objetivo: Introduzir if-else, switch e loops.
 - **Nível 3: Funções**
   - Objetivo: Criação e uso de funções.
+- **Nível 4: Estruturas de Dados**
+  - Objetivo: Trabalhar com arrays, slices e mapas.
