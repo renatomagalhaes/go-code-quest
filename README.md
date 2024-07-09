@@ -19,6 +19,7 @@ go-code-quest/
 │   ├── level11.go
 │   ├── level12.go
 │   ├── level13.go
+│   ├── level14.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -52,3 +53,5 @@ go-code-quest/
   - Manipulação de JSON em Golang. O jogador aprenderá a codificar e decodificar dados JSON.
 - **Nível 13: Concorrência (wait groups)**
   - Concorrência avançada em Golang. O jogador aprenderá a usar goroutines, canais e grupos de espera (wait groups) para sincronização de tarefas concorrentes.
+- **Nível 14: Paralelismo**
+  - Paralelismo em Golang. O jogador aprenderá a usar goroutines em conjunto com a biblioteca sync/atomic para operações atômicas e runtime.GOMAXPROCS para controlar o número de threads do sistema.
