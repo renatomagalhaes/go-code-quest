@@ -3,7 +3,7 @@ package levels
 import (
     "fmt"
     "go-code-quest/pkg/game"
-		"math/rand"
+	"math/rand"
     "log"
     "net/http"
     "time"

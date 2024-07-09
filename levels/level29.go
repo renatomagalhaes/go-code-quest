@@ -3,6 +3,8 @@ package levels
 import (
     "fmt"
     "go-code-quest/pkg/game"
+    "math/rand"
+    "time"
     "os/exec"
 )
 
