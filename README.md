@@ -41,6 +41,7 @@ go-code-quest/
 │   ├── level33.go
 │   ├── level34.go
 │   ├── level35.go
+│   ├── level36.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -120,3 +121,5 @@ go-code-quest/
   - Implementar monitoramento e logging eficaz em aplicações Go. O jogador aprenderá sobre a integração com ferramentas de monitoramento, a coleta e o armazenamento de logs, e o uso de pacotes de logging.
 - **Nível 35: Configurações de Aplicações com Viper**
   - Usar o pacote Viper para gerenciar configurações em aplicações Go. O jogador aprenderá a carregar configurações de arquivos, variáveis de ambiente e outros fontes, e a acessar esses valores no código.
+- **Nível 36: Manipulação de JSON em Go**
+  - Trabalhar com JSON em Go. O jogador aprenderá a serializar e desserializar dados JSON, lidar com estruturas aninhadas e usar tags de struct para customizar a conversão.
