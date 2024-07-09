@@ -44,6 +44,7 @@ go-code-quest/
 │   ├── level36.go
 │   ├── level37.go
 │   ├── level38.go
+│   ├── level39.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -129,4 +130,5 @@ go-code-quest/
   - Implementar WebSockets em aplicações Go, permitindo tanto o envio quanto o recebimento de mensagens. O jogador aprenderá a configurar um servidor WebSocket, lidar com conexões e mensagens, e usar a biblioteca gorilla/websocket.
 - **Nível 38: Utilizando Plugins Dinâmicos em Go**
   - Criar e utilizar plugins dinâmicos em Go. O jogador aprenderá a compilar código como plugin, carregar o plugin em tempo de execução e usar as funcionalidades do plugin. ````go build -buildmode=plugin -o plugin38.so plugin38.go````
-
+- **Nível 39: Utilizando Channels e Select para Comunicação Concorrente em Go**
+  - Utilizar channels e a instrução select para comunicação concorrente em Go. O jogador aprenderá a criar channels, enviar e receber dados através deles, e usar a instrução select para múltiplas operações de comunicação.
