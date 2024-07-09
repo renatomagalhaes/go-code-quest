@@ -20,6 +20,7 @@ go-code-quest/
 │   ├── level12.go
 │   ├── level13.go
 │   ├── level14.go
+│   ├── level15.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -55,3 +56,5 @@ go-code-quest/
   - Concorrência avançada em Golang. O jogador aprenderá a usar goroutines, canais e grupos de espera (wait groups) para sincronização de tarefas concorrentes.
 - **Nível 14: Paralelismo**
   - Paralelismo em Golang. O jogador aprenderá a usar goroutines em conjunto com a biblioteca sync/atomic para operações atômicas e runtime.GOMAXPROCS para controlar o número de threads do sistema.
+- **Nível 15: Build e Execução de Programas**
+  - Construir e executar programas em Golang. O jogador aprenderá a usar o comando go build para compilar programas Go e go run para executá-los diretamente.
