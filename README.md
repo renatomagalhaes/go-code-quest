@@ -46,6 +46,7 @@ go-code-quest/
 │   ├── level38.go
 │   ├── level39.go
 │   ├── level40.go
+│   ├── level41.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -135,3 +136,5 @@ go-code-quest/
   - Utilizar channels e a instrução select para comunicação concorrente em Go. O jogador aprenderá a criar channels, enviar e receber dados através deles, e usar a instrução select para múltiplas operações de comunicação.
 - **Nível 40: Padrão de Projeto Singleton em Go**
   - Implementar o padrão de projeto Singleton em Go para garantir que uma classe tenha apenas uma instância e fornecer um ponto global de acesso a essa instância.
+- **Nível 41: Trabalhando com Tarefas Assíncronas e Go Routines**
+  - Gerenciar tarefas assíncronas usando Go Routines. O jogador aprenderá a iniciar Go Routines, sincronizá-las com WaitGroups, e gerenciar a concorrência de forma eficiente.
