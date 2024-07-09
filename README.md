@@ -15,6 +15,7 @@ go-code-quest/
 │   ├── level7.go
 │   ├── level8.go
 │   ├── level9.go
+│   ├── level10.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -40,3 +41,5 @@ go-code-quest/
   - Leitura e escrita de arquivos em Golang. O jogador aprenderá a abrir, ler e escrever arquivos, bem como lidar com erros durante a manipulação de arquivos.
 - **Nível 9: Testes**
   - Criação e execução de testes em Golang. O jogador aprenderá a escrever testes unitários usando o pacote testing.
+- **Nível 10: Integração com Banco de Dados**
+  - Conexão e manipulação de um banco de dados em Golang. O jogador aprenderá a conectar-se a um banco de dados, executar consultas SQL e manipular dados.
