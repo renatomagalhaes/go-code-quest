@@ -33,6 +33,7 @@ go-code-quest/
 │   ├── level25.go
 │   ├── level26.go
 │   ├── level27.go
+│   ├── level28.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -96,3 +97,5 @@ go-code-quest/
   - Escrever testes unitários e de integração em Golang usando o pacote testing. O jogador aprenderá a escrever testes para funções individuais e a integrar testes que verificam o comportamento de múltiplos componentes.
 - **Nível 27: Profiling e Otimização de Código**
   - Usar ferramentas de profiling para identificar gargalos de desempenho e otimizar o código. O jogador aprenderá a usar o pacote pprof para fazer profiling de CPU e memória, analisar os resultados e aplicar técnicas de otimização.
+- **Nível 28: Implementação de Middlewares em Go**
+  - Criar e usar middlewares para gerenciar requisições HTTP. O jogador aprenderá a criar middlewares básicos, usar middlewares para autenticação, logging e tratamento de erros, e integrar middlewares em um servidor HTTP.
