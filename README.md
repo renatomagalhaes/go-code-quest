@@ -31,6 +31,8 @@ go-code-quest/
 │   ├── level23.go
 │   ├── level24.go
 │   ├── level25.go
+│   ├── level26.go
+│   ├── level27.go
 ├── pkg/
 │   ├── game/
 │   │   └── game.go
@@ -92,3 +94,5 @@ go-code-quest/
   - Usar WebSockets em Golang para permitir comunicação em tempo real entre um servidor e clientes. O jogador aprenderá a configurar um servidor WebSocket, enviar e receber mensagens em tempo real.
 - **Nível 26: Testes Unitários e de Integração com Go**
   - Escrever testes unitários e de integração em Golang usando o pacote testing. O jogador aprenderá a escrever testes para funções individuais e a integrar testes que verificam o comportamento de múltiplos componentes.
+- **Nível 27: Profiling e Otimização de Código**
+  - Usar ferramentas de profiling para identificar gargalos de desempenho e otimizar o código. O jogador aprenderá a usar o pacote pprof para fazer profiling de CPU e memória, analisar os resultados e aplicar técnicas de otimização.
